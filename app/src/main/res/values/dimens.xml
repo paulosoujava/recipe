@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="recipe_image_height">180dp</dimen>
+    <dimen name="recipe_image_width">260dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="height_toolbar">80dp</dimen>
+    <dimen name="margin_toolbar">10dp</dimen>
+    <dimen name="elevation_toolbar">6dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="size_18">18sp</dimen>
+    <bool name="isTablet">false</bool>
+    <dimen name="appwidget_padding">8dp</dimen>
+    <dimen name="widget_margin">8dp</dimen>
+</resources>

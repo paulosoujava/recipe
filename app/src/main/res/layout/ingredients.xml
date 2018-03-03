@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/ingredient"
+            android:layout_width="match_parent"
+            android:text="@string/dump_title"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/color_font"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/measure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dump_title"
+            android:textColor="@color/color_font"/>
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:drawableRight="@drawable/ic_food"
+            android:gravity="right"
+            android:lines="2"
+            android:text="@string/dump_title"
+            android:textColor="@color/color_font"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="@color/title_color_back" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Receitas</string>
+    <string name="dump_title">Dump Title</string>
+    <string name="no_text">No title</string>
+    <string name="serving">Serving:</string>
+    <string name="no_has_data_sorry">No has data, sorry</string>
+    <string name="steps">Steps</string>
+    <string name="ingredients">Ingredients</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="back">back</string>
+
+
+    <string-array name="titles_tab">
+        <item>Steps</item>
+        <item>Ingredients</item>
+    </string-array>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="carregando">Vazio :(</string>
+</resources>
