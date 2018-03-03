@@ -59,13 +59,8 @@ public class DetailActivity extends AppCompatActivity {
 
 
     public void back(View view) {
-        finish();
-    }
+        onBackPressed();
+        }
 
 
-    @Override
-    public void onBackPressed() {
-        finish();
-        super.onBackPressed();
-    }
 }
