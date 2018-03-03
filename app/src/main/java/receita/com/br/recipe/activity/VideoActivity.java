@@ -102,27 +102,13 @@ public class VideoActivity extends AppCompatActivity {
                 .createMediaSource(uri);
     }
 
-    private void releasePlayer() {
-        if (player != null) {
-            posicaoPlayback = player.getCurrentPosition();
-            janelaAtual= player.getCurrentWindowIndex();
-            prontoPlay= player.getPlayWhenReady();
-            player.release();
-            player = null;
-        }
-    }
-
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        releasePlayer();
-    }
-
+    
     private void showMessage() {
         Toast.makeText(this, R.string.no_has_data_sorry, Toast.LENGTH_SHORT).show();
     }
 
     public void back(View view) {
+        player.stop();
         finish();
     }
 
