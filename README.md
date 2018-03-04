@@ -1,5 +1,4 @@
-#Project create in course nanodegrees Android
-
+Project create in course nanodegrees Android
 For this project I used:
 
 Retrofit 2
@@ -18,10 +17,14 @@ not have image and I put the simple random image,
 The user put your favorite recipe in your widget
 
 See de videos:
+
 Mobile:
 https://www.youtube.com/watch?v=gt5cm6XcPek
 
-Tablet;
+
+Tablet:
+https://www.youtube.com/watch?v=LS-qjHt486w
+
 
 My profile udacity:
 https://profiles.udacity.com/p/7709968759
